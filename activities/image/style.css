@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(background.jpg);
+    background-color: aquamarine;
+    background: url(background.jpg) aquamarine;
+    /*
+    background-color: rgb(0, 0, 111);
+    background-image: url('background.jpg');
+    */
+}
+
+.mylist{
+    /*list-style-type: none; */
+    list-style-image: url('mark.png.png')
+}
+
+header {
+    background:url('sky.jpg') top right no-repeat;
+    /*
+    background-image: url('sky.jpg');
+    background-repeat: no-repeat;
+    background-postion: top right;
+    */
+    color:rgb(27, 0, 100)
+}
