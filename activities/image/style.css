@@ -11,7 +11,7 @@ body {
     list-style-image: url(mark.png);
 }
 header {
-    background:url(pet.png) top right no-repeat; /* short cut property */
+    /* short cut property */
     /*
     background-image: url('sky.jpg');
     background-repeat: no-repeat;
