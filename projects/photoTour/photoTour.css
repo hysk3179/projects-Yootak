@@ -1,0 +1,34 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color:darkblue;
+    background-image: url(southkoreamap.png);
+    background-repeat: repeat;
+}
+
+header {
+    background: url(koreaflag.png) right no-repeat;
+    /*background-image: url('koreaflag.png');
+    background-repeat: no-repeat;
+    background-position: right; */
+}
+
+nav a {
+    color:navy
+}
+.mark {
+    color:goldenrod
+}
+
+.mylist {
+    list-style-image: url(mark.png);
+    color:mediumvioletred
+}
+.content {
+    color:darkred
+}
+.current {
+    color:orangered;
+}
+.blue {
+    width: 600px;
+}
