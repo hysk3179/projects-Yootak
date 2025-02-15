@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: burlywood;
+    width: 70%;/* On the desktop view, it will automatically changed*/
+    /*margin-left: 100px; margin-top: 10px; */
+    margin-bottom: 40px;
+    padding: 50px 25px 100px 0; /* top right and bottom right and left*/
+}
+
+header h1 {
+    border: 10px solid #080;
+    padding: 3cm;
+    margin-top: 0;
+}
+
+.figwave {
+    width: 300px;
+    border: thin solid #000;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.figwave img {
+    width: 100%;
+    /*height: auto; */
+}
+/* .boxa {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* .boxb {
+    color: #f00;
+} */
