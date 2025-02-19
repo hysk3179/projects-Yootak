@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 500px;
+}
+
+nav a {
+    display:block;
+    background-color: aquamarine;
+    padding: 10px 5px;
+    border-bottom: thin solid #fff
+}
+
+.clear {
+    clear: both;
+}
+
+.moving {
+    position: relative; /* absolute, fixed, relative */
+    top: 50px;
+    right: 40px;
+
+}
+
+.floating {
+    float: left;
+}
+
+.pet {
+    width: 250px;
+    border: thin solid #000;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.pet img {
+    width: 100%;
+}
