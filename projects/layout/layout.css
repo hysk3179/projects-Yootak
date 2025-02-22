@@ -1,13 +1,29 @@
 body {
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Arial', sans-serif;
+    font-size: large;
+    text-align: center;
+    background-color: blueviolet
+}
+
+#wrapper {
+    width: auto;
+    background-color: gold
+}
+
+header {
+    font-size:x-large;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    padding: 20px;
 }
 
 nav a {
     display: block;
     padding: 5px 10px;
     background-color:aquamarine;
-    color:white;
+    color:darkgoldenrod;
     text-decoration: none;
+    text-transform: capitalize;
     float: left;
     margin-left: 50px;
 }
@@ -18,12 +34,32 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#wrapper {
-    width: 900px;
-    background-color: #FDDD;
-    margin: 10px auto;
-    border: thin sold #000;
-    border-radius: 5px;
+main {
+    text-align: left;
+    line-height: 1.6;
+    padding: 20px;
+    font-size: large;
+    font-style:normal;
+    background-color: darkgoldenrod;
+}
 
+figure {
+    float: right;
+    margin: 0 0 10px 20px;
+    width: 300px;
+    height: auto;
+    border: 2px solid darkgreen;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
 
+figcaption {
+    font-style:oblique;
+    text-align: center;
+    margin: 5px;
+}
+
+footer {
+    height: 100px;
+    background: url(everlandmark.png)right no-repeat;
 }
