@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    background-color: rgb(178,232,214);
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 15% 70% 15%; /* use %, 15px 15px etc, 1fr 5fr 1fr*/
+    gap: 10px;  /* use gap-column */
+}
+
+.child {
+    background-color: rgb(149, 124, 172);
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 15fr 70fr 15fr;
+    grid-template-areas: "header header header"
+                         "left center right"
+                         "footer footer footer"
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: header;
+}
+
+#lside {
+    grid-area: left;
+}
+
+#rside {
+    grid-area: right;
+}
+
+main {
+    grid-area: center;
+}
+
+footer {
+    grid-area: footer;
+}*/
