@@ -1,0 +1,67 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    grid-template-columns: "left right";
+}
+
+header {
+    background-color:mediumseagreen;
+}
+
+nav {
+    display: block;
+    background-color:greenyellow;
+    justify-content: space-around;
+}
+
+nav a {
+    display: flex;
+    background-color: cadetblue;
+    text-decoration:none;
+    padding: 10px;
+}
+
+.featured {
+    order: -1;
+}
+
+.right {
+    display:contents;
+    grid-row: right;
+    grid-template-areas: initial;
+    grid-template-rows: 15% 60%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:initial;
+    grid-gap: 10px;
+    background-color: bisque;
+    padding: 10px;
+}
+aside {
+    background-color: dodgerblue;
+    grid-area:right;
+    display: block;
+}
+
+.mocca {
+    grid-area:
+}
+
+.card {
+    flex-direction: column;
+    grid-area:unset;
+    display:inline-flex;
+}
+
+.pet {
+    width: 150px;
+    border:solid green;
+    border-top-left-radius: 7px;
+    box-shadow: 7px 15px;
+}
+
+.link {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
