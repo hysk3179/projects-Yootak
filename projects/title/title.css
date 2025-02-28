@@ -20,6 +20,9 @@ nav a {
     padding: 10px;
 }
 
+.parent {
+    
+}
 .featured {
     order: -1;
 }
