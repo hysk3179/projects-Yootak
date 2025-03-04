@@ -27,7 +27,7 @@ nav a {
 nav a:hover{
     text-decoration: underline;
     color: blue;
-    background-color: red;
+    background-color: green;
 }
 .parent {
 
@@ -47,5 +47,5 @@ nav a:hover{
     width: 100%;
 }
 .card h3{
-    background-color: red;
+    background-color: greenyellow;
 }
