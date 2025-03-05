@@ -20,7 +20,7 @@ nav a {
     padding: 10px;
     background-color: azure;
     color: mediumspringgreen;
-    text-decoration: no ne;
+    text-decoration: none;
     border-radius: 5px;
 }
 
@@ -30,7 +30,6 @@ nav a:hover{
     background-color: green;
 }
 .parent {
-
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -49,3 +48,29 @@ nav a:hover{
 .card h3{
     background-color: greenyellow;
 }
+
+@media ONLY screen AND (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+        magrin-bottom: 15px;
+    }
+    .feature {
+        order:-1;
+    }
+}
+
+@media ONLY screen AND (max-width: 450px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        border-radius: 0;
+        border-bottom: thin solid #FFF;
+    }
+}
+
