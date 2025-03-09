@@ -1,11 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color: red; */
+    background-color: lemonchiffon;
     margin: 0;
 }
-
+.card h3 {
+    text-align: center;
+}
 header {
-    background-color: violet;
+    background-color: burlywood;
 }
 header h1{
     margin: 0;
@@ -13,36 +15,42 @@ header h1{
 nav {
     display: flex;
     justify-content: space-evenly;
-    background-color: aqua;
+    background-color: goldenrod;
 }
 nav a {
     display: block;
     padding: 10px;
-    background-color: azure;
-    color: brown;
+    background-color: orange;
+    color: blanchedalmond;
     text-decoration: none;
     border-radius: 5px;
 }
 
+.center {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 nav a:hover{
     text-decoration: underline;
     color: blue;
-    background-color: red;
+    background-color: rgb(217, 255, 0);
 }
 .divide {
     display: grid;
     grid-template-columns: 20% 80%;    
 }
+img {
+    width: 100%;
+}
 .parent {
-
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .card {
-    border: thin solid #000;
-    box-shadow: 3px 3px 3px rgba(40, 40, 40, 0.5);
-    width: 250px;
+    border: thin solid olivedrab;
+    box-shadow: 5px 5px 5px rgba(209, 245, 7, 0.5);
+    width: 500px;
 }
 .card figure {
     margin: 0;
@@ -51,7 +59,7 @@ nav a:hover{
     width: 100%;
 }
 .card h3{
-    background-color: red;
+    background-color: beige;
 }
 
 @media ONLY screen AND (max-width: 700px) {
@@ -59,7 +67,8 @@ nav a:hover{
         flex-direction: column;
         align-items: center;
     }
-    .card P{
+
+    .card p{
         width: 80%;
     }
     .divide {
@@ -70,17 +79,28 @@ nav a:hover{
     .feature {
         order: -1;
     }
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media ONLY screen AND (max-width: 500px) {
-    nav {flex-direction: column;}
+    nav {flex-direction: column;}  
 
     nav a {
         border-radius: 0;
-        border-bottom: thin solid #FFF;
+        border-bottom: thin solid bisque;
     }
     .divide {
         display: flex;
         flex-direction: column-reverse;
     }
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }

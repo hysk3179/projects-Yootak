@@ -1,11 +1,11 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    /* background-color: red; */
+    background-color: lemonchiffon;
     margin: 0;
 }
 
 header {
-    background-color: violet;
+    background-color: burlywood;
 }
 header h1{
     margin: 0;
@@ -15,7 +15,6 @@ nav {
 }
 
 .parent {
-
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -31,6 +30,6 @@ nav {
 .card img {
     width: 100%;
 }
-.card h3{
-    background-color: red;
+.card h3 {
+    background-color: sandybrown;
 }
